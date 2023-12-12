@@ -5,7 +5,7 @@ This repository contains the Python code of my thesis "Classiﬁcation of ICESat
 They contain, per each notebook:
 - 1_processing_h5: code for extracting a .h5 file for each beam from the .hdf file for the area of interest
 - 2_DEM_conversion: converting ICESat-2 to the same height CRS as the reference data and interpolating the DEM
-- 3_1_extended_percentile_filtering: performing ground classification with the extended percentile filtering (EPF)
+- 3_1_enhanced_percentile_filtering: performing ground classification with the extended percentile filtering (EPF)
 - 3_2_*: performing ground classification with U-Net, split up in the steps of retrieving ground truth (1), making feature input and label images (2), training U-Net (3) and comparing the prediction to the ground truth (4)
 - 4_comparison: comparison of EPF and U-Net
 
